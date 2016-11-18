@@ -1,0 +1,215 @@
+---
+1
+Du kommst von der Arbeit nach Hause und möchtest mit deiner Familie einen Ausflug machen.
+Möchtest du zu Hause bleiben?
+1.0
+1.1
+---
+1.0
+Du bleibst Zuhause und machst deiner Familie etwas zu Essen.
+Möchtest du Fleisch machen? Sonst hat es nur noch Spagetti.
+1.1.1
+1.0.0
+---
+1.1
+Du gehst mit deiner Familie in eine Shopping Mall. Du wartest mit deinem Sohn Leon ausserhalb eines Kleidungsladen.
+Möchtest du mit deiner Frau mitgehen? Leon würde draussen warten.
+1.1.0
+1.0.1
+---
+1.0.0
+Du kochst deine Spagetti und sie schmecken grossartig. 
+Möchtest du nun die Kinder ins Bett bringen? Andernfalls würdet ihr noch einen Film schauen.
+1.0.0.2
+1.0.0.0
+---
+1.0.1
+Leon sieht einen Clown mit Luftballons.
+Möchtest du ihm einen kaufen?
+1.0.1.1
+1.0.0.1
+---
+1.1.1
+Du brätst dein Fleisch auf einem Gasherd und Leon spielt mit einem Feuerzeug in gefährlicher Nähe.
+Willst du ihn vom Herd wegreissen?
+1.1.1.1
+1.1.1.0
+---
+1.1.0
+Du folgst deiner Frau und schaust ab und zu auf Leon. Nach einiger Zeit kannst du Leon nicht mehr draussen sehen. 
+Willst du ihn suchen?
+1.1.0.1
+1.1.0.0
+---
+1.0.0.0
+Du schaust mit deinen Kindern „Findet Nori“ bis spät am Abend. Deine Frau scheisst dich für das zusammen. 
+Willst du dich entschuldigen?
+1.0.0.0.1
+1.0.0.0.0
+---
+1.0.0.1
+Leon ist wütend, dass du ihm keinen Luftballon gekauft hast. 
+Kaufst du ihm nun jetzt trotzdem einen?
+1.0.0.1.1
+3
+---
+3
+Leon ist wütend, dass du ihm keinen Luftballon gekauft hast. Er bewegt sich nicht mehr und er gibt nicht nach.
+Kaufst du ihm nun jetzt trotzdem einen?
+1.0.1.1
+tt
+---
+tt
+Du kaufst Leon trotzdem einen Ballon.
+	-Übrigens wustest du, dass dieses Spiel in der Beta Phase ist?
+1.0.1.1
+1.0.1.1
+---
+1.1.1.0
+Du bringst Leon näher, dass es gefährlich ist neben Gas mit Feuer zu spielen. Du brätst weiter dein Fleisch und deine Familie findet es köstlich.
+	-Wirst du dieses Spiel deinen Freunden weiterempfehlen?
+1.1.1.0.1
+1.1.1.0.1
+---
+1.1.0.0
+Du vertraust darauf, dass Leon in der Nähe des Ausgangs ist. Als du mit deiner Frau und deiner Tochter raus gehst ist er nirgends. Ihr sucht und sucht ihn den ganzen Tag in der Mall und der Umgebung. Am Abend gibst du eine Vermisstenanzeige raus. Einige Tage später wird Leon schwer verletzt ins Krankenhaus eingeliefert, wo er drei Tage später auch verstirbt. 
+Willst du dich ausdrücklich entschuldigen?
+5
+5
+---
+1.0.0.2
+Deine Frau ist froh, dass du die Kinder ins Bett gebracht hast. Nach paar Wochen stirbt Leon leider an einer Lebensmittelvergiftung.
+	-Übrigens kennst du schon Jugend Hackt?
+5
+5
+---
+1.0.1.1
+Leon ist glücklich, dass du ihm einen Ballon gekauft hast. Du schaust zu deiner Frau zurück und als du wieder zu Leon herüber schaust, ist er verschwunden. Ihr sucht in den ganzen Tag in der Mail und der Umgebung. Einige Tage später wird Leon tot aufgefunden. 
+Willst du dich ausdrücklich entschuldigen?
+5
+5
+---
+1.1.1.1
+Du greifst ein und willst Leon vom Herd wegreissen. Du rutschst aus und schubst ausersehen Leon mit dem Feuerzeug auf den Herd. Leon erleidet schwere Verbrennungen und stirbt noch am gleichem Tag im Krankenhaus.
+Willst du dich bei deiner Frau entschuldigen?
+5
+5
+---
+1.1.0.1
+Du suchst Leon in der Mall. Nach einiger Zeit findest du Leon auf der anderen Strassenseite. Ihr habt Blickkontakt und Leon rennt über die Strasse zu dir und ein Auto mit hoher Geschwindigkeit kommt angefahren. Du versuchst dich vor das Auto zu schmeissen. Tragischerweise stirbt Leon. 
+Willst du dich bei deiner Frau ausdrücklich entschuldigen?
+5
+5
+---
+1.0.0.0.1
+Du entschuldigst dich bei deiner Frau. In der Nacht stirbt leider Leon an einer Lebensmittelvergiftung.
+	-Kennst du Hotspot Spotter?
+5
+5
+---
+1.0.0.1.1
+Leon ist glücklich, dass du ihm trotzdem einen Ballon gekauft hast. Du schaust zu deiner Frau zurück und als du wieder zu deinem Sohn schaust, ist er verschwunden. Ihr sucht in den ganzen Tag in der Mail und der Umgebung. Einige Tage später wird dein Sohn tot aufgefunden. 
+Willst du dich ausdrücklich entschuldigen? 
+5
+5
+---
+1.1.1.0.1
+Leon geht mit vollem Bauch ins Bett. Leider stirbt er einige Tage später an Salmonellen.
+	-Wusstest du schon, dass die Entwickler dieses Spiels erst 14 Jahre alt sind?
+5
+5
+---
+5
+Du und deine Familie seid an der Beerdigung von Leon. Deine Frau weint ihre Seele aus  dem Leib. 
+Willst du zu ihr hingehen und sie umarmen und trösten?
+5.1
+5.5
+---
+5.1
+Du gehst auf sie zu und versuchst sie zu umarmen. Sie stösst dich weg. “  Du bist Schuld an seinem Tod. Hätte ich mich schonfrüher von dir getrennt, dann wäre er noch am leben. Geh weg ich will dich nie wieder sehen.” Geschockt stolperst du zurück. Du trennst dich von mir?! Das kannst du nicht tun und ich bin nicht schuld an seinem Tod. Du brauchst nur Jemanden dem du die Schuld geben kannst. Gutes Vorbild für unsere Tochter mach weiter so.” 
+Küsst du deine Tochter noch zum Abschied?
+5.1.1
+5.1.5
+---
+5.5
+Angeekelt schaust du ihr ins Gesicht. Rotz läuft aus ihrer Nase. Sie sieht deinen Blick und schreit: “Du Dreckskerl! Kannst nichtmal eine Träne für deinen eigenen Sohn verschwenden! Dein Stolz ist dir also wichtiger als wir?! Schäm dich. Ich werde nicht länger ein Teil deiner Familie sein und deine Tochter auch nicht. Und nun verpiss dich von seinem Grab, er hat einen besseren Tod verdient als das was du hier veranstaltest.” 
+Schlägst du ihr ins Gesicht?
+5.5.1
+5.5.5
+---
+5.1.1
+Du gehst auf deine 8 Jahre alte Tochter zu. Sie sieht dich mit ihren Kulleraugen an und innerlich schmilzt dein Herz, denn du weisst du wirst sie lange nicht mehr sehen. Du gibst ihr einen kurzen Kuss auf die Stirn. “Papa wo gehst du hin?” Ein Träne kullert ihr über die Wange als du dich von ihr entfernst. “ Schatz ich gehe fort. Mach dir keine Sorgen und bitte pass auf dich auf wenn ich weg bin.” 
+Gibst du deiner Ex-Frau die Autoschlüssel?”
+5.1.1.1
+5.1.1.5
+---
+5.1.5
+Du drehst dich um als du hörst wie deine Tochter nach dir schreit: “Papa! Geh nicht” Du hörst wie sie anfängt bitter zu weinen. Du ignorierst sie, denn deine Wut und Trauer ist zu gross. “Du hast nicht einmal den Anstand deiner Tochter tschüss zu sagen?! Wie tief bist du gesunken?!” Weitere Wut brodelt in dir auf. Du zerstörst Blumenbeete auf dem Weg. Du merkst das du noch den Schlüssel vom Auto hast. 
+Schmeisst du ihn so auf den Weg, dass deine Ex-Frau ihn ganz sicher findet?
+5.1.5.1
+5.1.5.5
+---
+5.5.1
+Dein Geduldsfaden ist gerissen und du schlägst ihr mit der flachen Hand ins Gesicht. Geschockt ziehen die Trauernden die Luft ein. Du merkst, dass du in einer brenzligen Situation bist und rennst zu deinem Auto. Du schaust noch einmal zurück zu deiner Ex-Frau. Sie hat ein tränenüberströmtes Gesicht. 
+Bleibst du auf dem Friedhof um dich bei deiner Ex-Frau zu entschuldigen?
+5.5.1.1
+5.5.1.5
+---
+5.5.5
+Du drehst dich um und gehst. Du ignorierst die rufe deiner Tochter. Aber dann drehst du dich noch einmal ums, um die Autoschlüssel deiner Ex-Frau zuzuwerfen. Dann machst du dich auf den Weg zum Bus der dich zum Bahnhof führt. 
+Willst du deinen Freunden schreiben, dass du für etwas länger verschwindest?
+5.5.5.1
+5.5.5.5
+---
+5.1.1.1
+Du wirfst deiner Ex-Frau die Autoschlüssel zu. Dann drehst du dich um, um zum Bus zu laufen. Du zerstörst ein paar Blumenbeete um dich ein wenig zu beruhigen. An der Bushaltestelle gehst du in den Bus rein. Du setzt dich auf einen freien Sitz. Du bist im Bus der zum Bahnhof führt. Bei der nächsten Station steigt ein älterer mann ein und setzt sich neben dich. Du fängst eine Konversation mit ihm an und schnell ist die Zeit um und der Bus stoppt um dich rauszulassen.
+
+
+
+---
+5.1.1.5 
+Asozial wie du auch bist, gibst du deiner Frau die Autoschlüssel nicht und gehst zu deinem Auto. Du startest dein Auto und fährst zum Bahnhof, wo den Schlüssel des Autos im Abfluss versenkst, denn du hast keine Lust das deine Ex-Frau das Auto irgendwann noch fährt, also zerschneidest du noch ein paar wichtige Kabel, sodass man das Auto ganz sicher nicht mehr benutzen kann.
+
+
+
+---
+5.1.5.1
+Du schmeisst ihn mitten auf den Weg. Leute schauen dichotomisch an. Du läufst zum Bus der zum Bahnhof fährt. Als er kommt steigst du ein und setzt dich auf einen freien Platz. Aber so das auch ja niemand neben dich setzt. Als du bim Bahnhof aussteigst bist du froh endlich weggekommen zu sein von deiner Frau.
+
+
+
+---
+5.1.5.5
+Du behältst die Schlüssel und grinst, weil du merkst, dass du eigentlich froh bist deine Frau los zu sein. Mit dem Auto fährst du zum Bahnhof, wo du dein Auto so demolierst, dass man ihn ganz sicher nicht mehr benutzen kann.
+
+
+
+---
+5.5.1.1
+Du bleibst, aber irgendein Trauernder hat die Polizei gerufen, die nun eintrifft. Du wirst verhaftet aber da du dich davor gewehrt hast, wurde dir ins Bein geschossen. Die Polizisten halten es aber nicht für nötig, eine Wunde zu heilen. Du stirbst an einer Blutvergiftung, aber du bist froh, denn es ist besser als eine Geldstrafe zahlen oder ein paar Monate im Gefängnis zu verbringen (Dies war dein letzter Gedanke, bevor du starbst.)
+
+
+
+---
+5.5.1.5
+Du hast überhaupt keine Lust sich bei deiner Ex-Frau zu entschuldigen und fährst nun zum Bahnhof um zu verschwinden. Auf dem Weg dorthin siehst du Polizeiwagen und bist froh nicht am Friedhof zu sein.
+
+
+
+---
+5.5.5.1
+
+
+
+
+---
+5.5.5.5
+Du schreibst deinen Freunden nicht, denn gerade liegen deine nerven blank. Der einzige weg den du jetzt siehst ist zu verschwinden und du steigst in den Bus ein der dich zum Bahnhof führt.
+
+
+
+---
+0
+Und schon ist die Geschichte vorbei. Hoffentlich Wird dein Leben nicht so traurig wie das von Ethan
+Und wenn du wieder einmal rückschläge kassieren musst, denk daran:
+
