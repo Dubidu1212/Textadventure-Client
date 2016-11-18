@@ -20,11 +20,8 @@ struct Situation{
 
 int main() {
 	string Name;
-	cout << "Willkommen zu Life of Ethan" << endl;
-	int w = 1000;
-	this_thread::sleep_for(std::chrono::milliseconds(w));
 	ifstream file;
-	int y = 0;
+	//int y = 0;
 	bool running = true;
 	file.open("StoryEthan.txt");
 	if(!file.is_open()){
@@ -37,6 +34,7 @@ int main() {
 	while(getline(file,temp)){
 		if(temp != "---"){
 			break;
+
 		}
 		Situation item;
 		getline(file,item.id);
@@ -55,7 +53,38 @@ int main() {
 			break;
 		}
 		Situation item;
+		getline(file,item.id);
 
+		getline(file,item.beschrieb);
+		item.beschrieb.push_back(item.beschrieb);
+		while(getline(file,temp) == "!!!"){
+			getline(file,item.beschrieb);
+			item.beschrieb.push_back(item.beschrieb);
+		}
+		item.beschrieb = "§";
+		item.beschrieb.push_back(item.beschrieb);
+
+		//bei frage position eintagen
+		// vieleicht über temporärer string
+
+		getline(file,item.frage);
+		item.frage.push_back(item.frage);
+		while(getline(file,temp) == "???"){
+					getline(file,item.frage);
+					item.frage.push_back(item.frage);
+				}
+		item.frage = "§";
+		item.frage.push_back(item.frage);
+
+		getline(file,item.ids);
+		item.ids.push_back(item.ids);
+
+		while(getline(file,temp)== "***"){
+			getline(file,item.ids);
+			item.ids.push_back(item.ids);
+		}
+		item.ids = "§";
+		item.ids.push_back(item.ids);
 	}
 
 
