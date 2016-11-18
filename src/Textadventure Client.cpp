@@ -19,6 +19,7 @@ struct Situation{
 
 
 int main() {
+	string tempStr;
 	string Name;
 	ifstream file;
 	//int y = 0;
@@ -45,6 +46,7 @@ int main() {
 		sit.push_back (item);
 
 	}*/
+	string endzeichen = "§";
 	vector<Situation> sit;
 	string temp;
 	getline(file,Name);
@@ -55,36 +57,56 @@ int main() {
 		Situation item;
 		getline(file,item.id);
 
-		getline(file,item.beschrieb);
-		item.beschrieb.push_back(item.beschrieb);
+
+
+		getline(file,tempStr);
+		item.beschrieb[0] = tempStr;
+		item.beschrieb.push_back(tempStr);
+		int runde = 1;
 		while(getline(file,temp) == "!!!"){
-			getline(file,item.beschrieb);
-			item.beschrieb.push_back(item.beschrieb);
+			getline(file,tempStr);
+			item.beschrieb[runde] = tempStr;
+			item.beschrieb.push_back(tempStr);
+			runde ++;
+
 		}
-		item.beschrieb = "§";
-		item.beschrieb.push_back(item.beschrieb);
+		item.beschrieb[runde] = endzeichen;
+		item.beschrieb.push_back(endzeichen);
 
 		//bei frage position eintagen
 		// vieleicht über temporärer string
 
-		getline(file,item.frage);
-		item.frage.push_back(item.frage);
-		while(getline(file,temp) == "???"){
-					getline(file,item.frage);
-					item.frage.push_back(item.frage);
+
+		getline(file,tempStr);
+				item.frage[0] = tempStr;
+				item.frage.push_back(tempStr);
+				runde = 1;
+
+				while(getline(file,temp) == "!!!"){
+					getline(file,tempStr);
+					item.frage[runde] = tempStr;
+					item.frage.push_back(tempStr);
+					runde ++;
+
 				}
-		item.frage = "§";
-		item.frage.push_back(item.frage);
+				item.frage[runde] = endzeichen;
+				item.frage.push_back(endzeichen);
 
-		getline(file,item.ids);
-		item.ids.push_back(item.ids);
 
-		while(getline(file,temp)== "***"){
-			getline(file,item.ids);
-			item.ids.push_back(item.ids);
-		}
-		item.ids = "§";
-		item.ids.push_back(item.ids);
+				getline(file,tempStr);
+				item.ids[0] = tempStr;
+				item.ids.push_back(tempStr);
+				runde = 1;
+
+				while(getline(file,temp) == "!!!"){
+					getline(file,tempStr);
+					item.ids[runde] = tempStr;
+					item.ids.push_back(tempStr);
+					runde ++;
+
+				}
+				item.ids[runde] = endzeichen;
+				item.ids.push_back(endzeichen);
 	}
 
 
