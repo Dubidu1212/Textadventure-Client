@@ -10,16 +10,16 @@ using namespace std;
 
 struct Situation{
 	string id;
-	string beschrieb;
-	string frage;
-	string next_id_ja;
-	string next_id_nein;
+	vector <string> beschrieb;
+	vector <string> frage;
+	vector <int> ids;
 
 };
 
 
 
 int main() {
+	string Name;
 	cout << "Willkommen zu Life of Ethan" << endl;
 	int w = 1000;
 	this_thread::sleep_for(std::chrono::milliseconds(w));
@@ -31,9 +31,8 @@ int main() {
 		cout << "file could not be opened!";
 		return 0;
 	}
-
+	/*
 	vector<Situation> sit;
-
 	string temp;
 	while(getline(file,temp)){
 		if(temp != "---"){
@@ -47,8 +46,26 @@ int main() {
 		getline(file,item.next_id_nein);
 		sit.push_back (item);
 
+	}*/
+	vector<Situation> sit;
+	string temp;
+	getline(file,Name);
+	while(getline(file,temp)){
+		if(temp != "---"){
+			break;
+		}
+		Situation item;
+
 	}
+
+
+
+
 	//hier startet das richtige spiel
+
+		cout << Name << endl;
+		int w = 1000;
+		this_thread::sleep_for(std::chrono::milliseconds(w));
 	string tempId = "1";
 	while(running){
 
