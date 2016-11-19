@@ -63,11 +63,16 @@ int main() {
 		item.beschrieb[0] = tempStr;
 		item.beschrieb.push_back(tempStr);
 		int runde = 1;
-		while(getline(file,temp) == "!!!"){
-			getline(file,tempStr);
-			item.beschrieb[runde] = tempStr;
-			item.beschrieb.push_back(tempStr);
-			runde ++;
+		while(getline(file,temp)){
+			if(temp  == "!!!"){
+				getline(file,tempStr);
+							item.beschrieb[runde] = tempStr;
+							item.beschrieb.push_back(tempStr);
+							runde ++;
+			}
+			else{
+				continue;
+			}
 
 		}
 		item.beschrieb[runde] = endzeichen;
