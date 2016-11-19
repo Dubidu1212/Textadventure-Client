@@ -12,7 +12,7 @@ struct Situation{
 	string id;
 	vector <string> beschrieb;
 	vector <string> frage;
-	vector <int> ids;
+	vector <string> ids;
 
 };
 
@@ -86,39 +86,49 @@ int main() {
 				item.frage[0] = tempStr;
 				item.frage.push_back(tempStr);
 				runde = 1;
-
-				while(getline(file,temp) == "!!!"){
-					getline(file,tempStr);
-					item.frage[runde] = tempStr;
-					item.frage.push_back(tempStr);
-					runde ++;
+				while(getline(file,temp)){
+					if(temp  == "!!!"){
+						getline(file,tempStr);
+									item.frage[runde] = tempStr;
+									item.frage.push_back(tempStr);
+									runde ++;
+					}
+					else{
+						continue;
+					}
 
 				}
 				item.frage[runde] = endzeichen;
 				item.frage.push_back(endzeichen);
 
 
+
 				getline(file,tempStr);
-				item.ids[0] = tempStr;
-				item.ids.push_back(tempStr);
-				runde = 1;
+						item.ids[0] = tempStr;
+						item.ids.push_back(tempStr);
+						runde = 1;
+						while(getline(file,temp)){
+							if(temp  == "!!!"){
+								getline(file,tempStr);
+								item.ids[runde] = tempStr;
+								item.ids.push_back(tempStr);
+								runde ++;
+							}
+							else{
+								continue;
+							}
 
-				while(getline(file,temp) == "!!!"){
-					getline(file,tempStr);
-					item.ids[runde] = tempStr;
-					item.ids.push_back(tempStr);
-					runde ++;
+						}
+						item.ids[runde] = endzeichen;
+						item.ids.push_back(endzeichen);
 
-				}
-				item.ids[runde] = endzeichen;
-				item.ids.push_back(endzeichen);
 	}
 
 
 
 
 	//hier startet das richtige spiel
-
+/*
 		cout << Name << endl;
 		int w = 1000;
 		this_thread::sleep_for(std::chrono::milliseconds(w));
@@ -233,7 +243,7 @@ int main() {
 	}
 
 	}
-
+*/
 	cout << "ende";
 
 
