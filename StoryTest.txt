@@ -14,6 +14,7 @@ gehst du nach hause
 0.1
 ***
 0.2
+0
 ---
 0.0
 Du bist auf dem weg zur schule eingeschlafen
@@ -29,6 +30,7 @@ gehst du nach h
 0.0.1
 ***
 0.0.2
+0
 ---
 0.1
 Du bist auf dem weg zur schule eingeschlafen
@@ -44,6 +46,7 @@ gehst du nach he
 0.1.1
 ***
 0.1.2
+0
 ---
 0.2
 Du bist auf dem weg zur schule eingeschlafen2
@@ -59,3 +62,4 @@ gehst du nach he2
 0.2.1
 ***
 0.2.2
+0

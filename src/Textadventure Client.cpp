@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <thread>
 #include <chrono>
+#include <sstream>
 
 using namespace std;
 
@@ -13,12 +14,14 @@ struct Situation{
 	vector <string> beschrieb;
 	vector <string> frage;
 	vector <string> ids;
+	int art;
 
 };
 
 
 
 int main() {
+	cout << "gestartet"<< endl;
 	string tempStr;
 	string Name;
 	ifstream file;
@@ -117,11 +120,17 @@ int main() {
 							else{
 								continue;
 							}
-
 						}
 						item.ids[runde] = endzeichen;
 						item.ids.push_back(endzeichen);
 
+						getline(file,tempStr);
+
+						stringstream ss;
+						ss.str (tempStr);
+						ss >> item.art;
+
+						sit.push_back(item);
 	}
 
 
