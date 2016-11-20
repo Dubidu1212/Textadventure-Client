@@ -149,30 +149,31 @@ int main() {
 
 
 				}
-				if(sit.art == 1){//nur Situation
+
+				if(sit[x].art == 1){//nur Situation
 
 
 
 
 				}
-				if(sit.art == 2){//Medien
+				if(sit[x].art == 2){//Medien
 
 
 
 
 				}
-				if(sit.art == 3){//Gameplay
+				if(sit[x].art == 3){//Gameplay
 
 
 
 
 				}
-				if(sit.art == 4){//Auswahl nach gefühlen
+				if(sit[x].art == 4){//Auswahl nach gefühlen
 
 
 
 				}
-				if(sit.art == 5){//Auswahl nach gefühlen (gezwungen)
+				if(sit[x].art == 5){//Auswahl nach gefühlen (gezwungen)
 
 
 				}
