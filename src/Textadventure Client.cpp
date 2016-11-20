@@ -136,11 +136,16 @@ int main() {
 
 	while(running){
 
+
 			for(int x=0; x< sit.size();x++){
 				//abfragen welche art
-				if (sit.art == 0){//frage und situation
-
-
+				if (sit[x].art == 0){//frage und situation
+					for(int y = 0; y < sit[y].beschrieb.size(); y++){
+						cout << sit[y].beschrieb[y] << endl;
+					}
+					for(int z = 0; z < sit[z].beschrieb.size(); z++){
+						cout << sit[x].frage[z] << endl;
+					}
 
 
 				}
@@ -159,6 +164,15 @@ int main() {
 				if(sit.art == 3){//Gameplay
 
 
+
+
+				}
+				if(sit.art == 4){//Auswahl nach gefühlen
+
+
+
+				}
+				if(sit.art == 5){//Auswahl nach gefühlen (gezwungen)
 
 
 				}
