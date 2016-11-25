@@ -67,7 +67,7 @@ int main() {
 				cout << "ge!!!"<< endl;
 				item.beschrieb[runde] = tempStr;
 				item.beschrieb.push_back(tempStr);
-				runde ++;
+				runde++;
 				getline(file,temp);
 			}
 			else{
@@ -79,18 +79,22 @@ int main() {
 		}
 
 		item.beschrieb[runde] = endzeichen;
+
 		item.beschrieb.push_back(endzeichen);
 
 		getline(file,tempStr);
+				item.frage.reserve(1);
 				item.frage[0] = tempStr;
+
 				item.frage.push_back(tempStr);
-				runde = 1;
+
+				runde = 0;
 				while(getline(file,temp)){
 					if(temp  == "!!!"){
 						getline(file,tempStr);
-									item.frage[runde] = tempStr;
-									item.frage.push_back(tempStr);
-									runde ++;
+						item.frage[runde] = tempStr;
+						item.frage.push_back(tempStr);
+						runde ++;
 					}
 					else{
 						break;
@@ -103,6 +107,7 @@ int main() {
 
 
 				getline(file,tempStr);
+						item.ids.reserve(1);
 						item.ids[0] = tempStr;
 						item.ids.push_back(tempStr);
 						runde = 1;
@@ -121,27 +126,30 @@ int main() {
 						item.ids.push_back(endzeichen);
 
 						getline(file,tempStr);
-
+						cout << "dhdh"<< endl;
 						stringstream ss;
 						ss.str (tempStr);
 						ss >> item.art;
 
 						sit.push_back(item);
 	}
-	//bis hier
-	//auslesen
 
+	cout << "dhdh"<< endl;
+	cout << endl << endl << endl;
 	while(running){
 
 
 			for(int x=0; x< sit.size();x++){
 				//abfragen welche art
+
 				if (sit[x].art == 0){//frage und situation
+
 					for(int y = 0; y < sit[y].beschrieb.size(); y++){
-						cout << sit[y].beschrieb[y] << endl;
+						cout << sit[x].beschrieb[y] << endl;
 					}
+
 					for(int z = 0; z < sit[z].beschrieb.size(); z++){
-						cout << sit[x].frage[z] << endl;
+						cout << sit[x].beschrieb[z] << endl;
 					}
 
 
