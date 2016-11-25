@@ -23,62 +23,61 @@ struct Situation{
 int main() {
 	cout << "gestartet"<< endl;
 	string tempStr;
+	cout << "1"<< endl;
 	string Name;
+	cout << "2"<< endl;
 	ifstream file;
+	cout << "3"<< endl;
 	//int y = 0;
 	bool running = true;
-	file.open("StoryEthan.txt");
+	cout << "4"<< endl;
+	file.open("StoryTest.txt");
 	if(!file.is_open()){
-		cout << "file could not be opened!";
+		cerr << "file could not be opened!" << endl;
 		return 0;
 	}
-	/*
-	vector<Situation> sit;
-	string temp;
-	while(getline(file,temp)){
-		if(temp != "---"){
-			break;
-
-		}
-		Situation item;
-		getline(file,item.id);
-		getline(file,item.beschrieb);
-		getline(file,item.frage);
-		getline(file,item.next_id_ja);
-		getline(file,item.next_id_nein);
-		sit.push_back (item);
-
-	}*/
-	// von hier bis
+	cout << "5" << endl;
 	string endzeichen = "§";
 	vector<Situation> sit;
 	string temp;
 	getline(file,Name);
+	cout << "6" << endl;
+
 	while(getline(file,temp)){
 		if(temp != "---"){
+			cout << "break"<< endl;
 			break;
 		}
+		cout << "no break"<< endl;
 		Situation item;
 		getline(file,item.id);
-
-
-
+		cout << "7"<< endl;
 		getline(file,tempStr);
+		cout << "8"<< endl;
+		item.beschrieb.reserve(1);
 		item.beschrieb[0] = tempStr;
+		cout << "9"<< endl;
 		item.beschrieb.push_back(tempStr);
-		int runde = 1;
+		cout << "10"<< endl;
+		int runde = 0;
+		cout << "11"<< endl;
 		while(getline(file,temp)){
 			if(temp  == "!!!"){
 				getline(file,tempStr);
-							item.beschrieb[runde] = tempStr;
-							item.beschrieb.push_back(tempStr);
-							runde ++;
+				cout << "ge!!!"<< endl;
+				item.beschrieb[runde] = tempStr;
+				item.beschrieb.push_back(tempStr);
+				runde ++;
+				getline(file,temp);
 			}
 			else{
-				continue;
+				cout << "continued"<< endl;
+				break;
+
 			}
 
 		}
+
 		item.beschrieb[runde] = endzeichen;
 		item.beschrieb.push_back(endzeichen);
 
