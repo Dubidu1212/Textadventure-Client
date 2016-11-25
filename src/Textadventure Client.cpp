@@ -93,7 +93,7 @@ int main() {
 									runde ++;
 					}
 					else{
-						continue;
+						break;
 					}
 
 				}
@@ -114,7 +114,7 @@ int main() {
 								runde ++;
 							}
 							else{
-								continue;
+								break;
 							}
 						}
 						item.ids[runde] = endzeichen;
@@ -128,9 +128,7 @@ int main() {
 
 						sit.push_back(item);
 	}
-//bis hier
-
-
+	//bis hier
 	//auslesen
 
 	while(running){
