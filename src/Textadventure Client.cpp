@@ -148,11 +148,11 @@ int main() {
 						cout << sit[x].beschrieb[y] << endl;
 					}
 
-					for(int z = 0; z < sit[z].beschrieb.size(); z++){
-						cout << sit[x].beschrieb[z] << endl;
+					for(int z = 0; z < sit[z].frage.size(); z++){
+						cout << sit[x].frage[z] << endl;
 					}
 
-
+					x++;
 				}
 
 				if(sit[x].art == 1){//nur Situation
